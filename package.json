@@ -1,0 +1,32 @@
+{
+  "name": "@innerfuse/mdx.macro",
+  "version": "0.1.0",
+  "main": "mdx.macro.js",
+  "keywords": [
+    "babel-plugin-macros",
+    "mdx"
+  ],
+  "description": "A babel-macro for transforming mdx",
+  "author": "Weyert de Boer <weyert@innerfuse.biz>",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/mdx": "0.16.6",
+    "babel-plugin-macros": "^2.4.3",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/weyert/mdx.macro"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/cli": "^7.2.3",
+    "babel-jest": "23.6.0",
+    "babel-plugin-tester": "^5.5.2",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
