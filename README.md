@@ -20,6 +20,7 @@ import { MDXTag } from '@mdx-js/tag'
 imports() // copies import statements from markdown file to here
 
 const SomeMDXComponent = mdx('./markdown.md')
+```
 
 generates...
 
